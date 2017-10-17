@@ -1,0 +1,3 @@
+Le juste nombre: 
+On a un nombre généré aléatoirement (rand()) et on doit trouver le chiffre correspondant,
+On a 10 essais, avec chaque essais une indication si c'est plus ou moins
