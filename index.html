@@ -1,27 +1,50 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Le Juste Nombre</title>
 </head>
+
 <body>
-   <div class="container">
-       <div class="row">
-           <div class="col-lg-offset-3 col-lg-6">
-           <h1 class="text-center">Le Juste Nombre</h1>
-           <p class="text-center">Bienvenue sur le juste nombre !<br>
-           Le but du jeu est très simple, je vous défie de deviner le nombre que j'ai choisi !
-           <br>Il s'agit d'un chiffre entre 0 et 100 (facile hein !)
-           <br>Je vous laisserai des indices pour vous aiguiller...
-           Tentez votre chance en 10 essais<br>
-           Bonne chance <br><cite>Signé JS</cite></p>
-           </div>
-       </div>
+   <div class="container accueil">
+       
    </div>
+    <div class="container game">
+        <div class="row">
+            <div class="col-lg-offset-3 col-lg-6">
+                <h1 class="text-center">Le Juste Nombre</h1>
+                <p class="text-center">Bienvenue sur le juste nombre !<br> Le but du jeu est très simple, je vous défie de deviner le nombre que j'ai choisi !
+                    <br>Il s'agit d'un chiffre entre 0 et 100 (facile hein !)
+                    <br>Je vous laisserai des indices pour vous aiguiller... Tentez votre chance en 10 essais<br> Bonne chance <br><cite>Signé JS</cite></p>
+            </div>
+        </div>
+        <div class="row">
+            <input type="text" class="propo col-lg-offset-4 col-lg-2" placeholder="Entrez votre nombre" />
+            <button onclick="validate()" type="button" class="col-lg-2">JOUER</button>
+
+            <div class="col-lg-3">
+                <p class="indice"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-offset-6 col-lg-4">
+               <p class="nbEssai"></p> 
+            </div>
+        </div>
+    </div>
+    <div class="container recap">
+        <button onclick="rejouer()" type="button">REJOUER</button>
+    </div>
+    <div class="container gameover">
+        <p class="">GAME OVER</p>
+        <button onclick="rejouer()" type="button">REJOUER</button>
+    </div>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/game.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </body>
+
 </html>

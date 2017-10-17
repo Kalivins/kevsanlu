@@ -1,0 +1,12 @@
+.inferieur::after {
+    content: "le chiffre est inférieur !";
+}
+.superieur::after {
+    content: "le chiffre est supérieur !";
+}
+.recap {
+    display: none;
+}
+.gameover {
+    display: none;
+}
