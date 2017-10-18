@@ -94,9 +94,31 @@ span
     border-radius: 50%;
     margin-left: : 0 ;
     border: none;
-
 }
 .bull
 {
     
+}
+.perdu
+{
+    font-size:150px; 
+    text-align: center;
+    color : red;
+    font-family: "police 1";
+}
+.rejouer
+{
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
+    border: none;
+    color : white;
+    background-color: limegreen;
+    text-align: center;
+    font-family: "police 1";
+    font-size: 40px;
+}
+.lost
+{
+  text-align: center;
 }
