@@ -14,9 +14,11 @@ body {
     background-repeat: no-repeat;
 }
 .accueil {
-    font-family: "police 1";
     margin-top: 15%;
     height: 100%;
+}
+.titre {
+    font-family: "police 1";
 }
 .game {
     display: none;
@@ -26,4 +28,8 @@ body {
 }
 .gameover {
     display: none;
+}
+
+#steam {
+  opacity: .5;
 }
