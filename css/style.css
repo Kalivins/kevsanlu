@@ -111,8 +111,6 @@ span {
     color: white;
 }
 
-.bull {}
-
 .perdu {
     font-size: 150px;
     text-align: center;
@@ -136,20 +134,10 @@ span {
     text-align: center;
 }
 
-margin-left: 200px;
-
-}
-
-.test {
-
-    width: 200px;
-}
-
 a,
 button,
 input:focus {
     outline: none;
-
 }
 
 .indice,
@@ -164,23 +152,23 @@ input:focus {
     color: white;
     font-family: "police 1";
 }
-
-.winbutton {
-    height: 100px;
+.winbutton
+{
+   height: 100px;
     width: 150px;
     border-radius: 50%;
     border: none;
-    color: white;
+    color : white;
     background-color: limegreen;
     text-align: center;
     font-family: "police 1";
-    font-size: 40px;
+    font-size: 40px; 
 }
-
-.gagne {
+.gagne
+{
     font-family: "police 1";
     color: white;
-    text-align: center;
+    text-align:  center;
     font-size: 150px;
     margin-bottom: 50px;
     color: lawngreen;
