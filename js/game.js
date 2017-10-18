@@ -48,7 +48,7 @@ function validate() {
     } else if (propo.value == but) {
         propo.style.border = "solid green 1px";
         game.style.display = "none";
-        recap.style.display = "block";
+        recap.style.display = "inline-block";
         var audio = document.querySelector('.win');
         audio.play();
     }
@@ -56,7 +56,7 @@ function validate() {
     
     if (essai == 0) {
         game.style.display = "none";
-        gameover.style.display = "block";
+        gameover.style.display = "inline-block";
         var audioover = document.querySelector('.audioover');
         audioover.play();
     }

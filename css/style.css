@@ -1,11 +1,27 @@
-@font-face {
-    font-family: "police 1";
-    src: url("../fonts/MouseMemoirs-Regular.ttf");
+/*MEDIA QUERIES*/
+/*@media (min-width:1200px) { ... }
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+@media (min-width: 768px) and (max-width: 991px) { ... }
+*/
+.container accueil
+{
+   text-align: center;
 }
+.row1
+{
+    text-align: center;*/
+}
+.signed 
+{
+    margin-top: 0px;
+    padding-left: 0px; 
+}
+@media (max-width: 767px) { ... }
 
-@font-face {
-    font-family: "police 2";
-    src: url("../fonts/Pacifico-Regular.ttf");
+.signed 
+{
+    margin-top: 0px;
+    padding-left: 0px; 
 }
 
 @media  (max-width: 767px) {
@@ -28,6 +44,18 @@
         height: 55px;
         width: 55px;
     }
+}
+
+/*FIN MEDIA QUERIES*/
+
+@font-face {
+    font-family: "police 1";
+    src: url("../fonts/MouseMemoirs-Regular.ttf");
+}
+
+@font-face {
+    font-family: "police 2";
+    src: url("../fonts/Pacifico-Regular.ttf");
 }
 
 .inferieur::after {
@@ -94,9 +122,10 @@ body {
 }
 
 .signed {
-    margin-top: 50px;
+    /*margin-top: 50px;
     padding-left: 400px;
-    font-family: "police 2";
+    font-family: "police 2";*/
+    
 }
 
 cite {
@@ -195,5 +224,11 @@ input:focus {
 }
 
 .tada {
+
     animation-delay: 0.3s;
 }
+.yes 
+{
+    text-align: center;
+}
+
