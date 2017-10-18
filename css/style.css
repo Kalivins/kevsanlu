@@ -140,7 +140,6 @@ a, button, input:focus
 {
     outline: none;
     
-
 }
 .indice , .nbEssai{
     
@@ -152,4 +151,28 @@ a, button, input:focus
     margin-left: 75px;
     color: white;
     font-family: "police 1";
+}
+.winbutton
+{
+   height: 100px;
+    width: 150px;
+    border-radius: 50%;
+    border: none;
+    color : white;
+    background-color: limegreen;
+    text-align: center;
+    font-family: "police 1";
+    font-size: 40px; 
+}
+.gagne
+{
+    font-family: "police 1";
+    color: white;
+    text-align:  center;
+    font-size: 150px;
+    margin-bottom: 50px;
+    color: lawngreen;
+}
+.tada {
+    animation-delay: 0.5s;
 }
