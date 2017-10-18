@@ -26,18 +26,22 @@ function validate() {
         indice.classList.remove("inferieur");
         essai--;
         nbEssai.innerHTML = "Il vous reste " + essai + " essai(s)";
+        propo.classList.add("animated shake")
     } else if (propo.value > but) {
         indice.classList.add("inferieur");
         indice.classList.remove("superieur");
         essai--;
         nbEssai.innerHTML = "Il vous reste " + essai + " essai(s)";
+        propo.classList.add("shake")
     } else if (propo.value == but) {
-        alert("bravo!!!!");
-        recap.style.display = "block";
-        game.style.display = "none";
-    } if (essai == 0) {
-        game.style.display = "none";
-        gameover.style.display = "block";
+        switchDiv(game, recap);
+        var audio = document.querySelector('.win');
+        audio.play();
+    } 
+    if (essai == 0) {
+        switchDiv(game, gameover);
+        var audioover = document.querySelector('.audioover');
+        audioover.play();
     }
 }
 function switchDiv(from, to) {
