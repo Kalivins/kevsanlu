@@ -85,7 +85,9 @@ function removeFadeOut(el, speed) {
 
 function itemDelete() {
     var coffee = document.querySelector('.cafe');
+    coffee.lastElementChild.classList.add("animated")
+    coffee.lastElementChild.classList.add("slideOutDown")
     setTimeout(function () {
         coffee.removeChild(coffee.lastElementChild);
-    }, 400);
+    }, 230);
 }
