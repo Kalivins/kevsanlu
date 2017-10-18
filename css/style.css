@@ -8,7 +8,9 @@
     src: url("../fonts/Pacifico-Regular.ttf");
 }
 
-@media (max-width:) {}
+@media (min-width: 1200px) {
+    
+}
 
 .inferieur::after {
     content: "le chiffre est inférieur !";

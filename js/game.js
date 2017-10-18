@@ -52,6 +52,8 @@ function validate() {
         var audio = document.querySelector('.win');
         audio.play();
     }
+    
+    
     if (essai == 0) {
         game.style.display = "none";
         gameover.style.display = "block";
