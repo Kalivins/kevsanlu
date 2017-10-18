@@ -6,7 +6,10 @@
     font-family: "police 2";
     src: url("../fonts/Pacifico-Regular.ttf");
 }
-
+@media (max-width: )
+{
+    
+}
 .inferieur::after {
     content: "le chiffre est inférieur !";
 
