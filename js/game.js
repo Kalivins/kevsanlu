@@ -26,7 +26,6 @@ function validate() {
         indice.classList.remove("inferieur");
         essai--;
         nbEssai.innerHTML = "Il vous reste " + essai + " essai(s)";
-        propo.classList.add("animated shake")
     } else if (propo.value > but) {
         indice.classList.add("inferieur");
         indice.classList.remove("superieur");
