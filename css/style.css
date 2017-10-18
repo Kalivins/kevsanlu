@@ -1,8 +1,25 @@
+@font-face {
+    font-family: "police 1";
+    src: url("../fonts/MouseMemoirs-Regular.ttf");
+}
+}
 .inferieur::after {
     content: "le chiffre est inférieur !";
 }
 .superieur::after {
     content: "le chiffre est supérieur !";
+}
+body {
+    background-color: #4a53b2;
+    background-repeat: no-repeat;
+}
+.accueil {
+    font-family: "police 1";
+    margin-top: 15%;
+    height: 100%;
+}
+.game {
+    display: none;
 }
 .recap {
     display: none;

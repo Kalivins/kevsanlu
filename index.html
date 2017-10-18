@@ -5,22 +5,23 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <title>Le Juste Nombre</title>
 </head>
 
 <body>
-   <div class="container accueil">
-       
-   </div>
-    <div class="container game">
-        <div class="row">
-            <div class="col-lg-offset-3 col-lg-6">
-                <h1 class="text-center">Le Juste Nombre</h1>
+   <div class="container accueil animated zoomIn">
+     <div class="row">
+      <div data-shadow-color="0,0,0" class="start col-lg-offset-3 col-lg-6">
+       <h1 class="text-center titre">Le Juste Nombre</h1>
                 <p class="text-center">Bienvenue sur le juste nombre !<br> Le but du jeu est très simple, je vous défie de deviner le nombre que j'ai choisi !
                     <br>Il s'agit d'un chiffre entre 0 et 100 (facile hein !)
                     <br>Je vous laisserai des indices pour vous aiguiller... Tentez votre chance en 10 essais<br> Bonne chance <br><cite>Signé JS</cite></p>
-            </div>
+                    <button onclick="switchDiv(start, game)" class="go">JOUER</button>
         </div>
+       </div>
+   </div>
+    <div class="container game animated">
         <div class="row">
             <input type="text" class="propo col-lg-offset-4 col-lg-2" placeholder="Entrez votre nombre" />
             <button onclick="validate()" type="button" class="col-lg-2">JOUER</button>
@@ -45,6 +46,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/game.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/real-shadow.js"></script>
 </body>
 
 </html>

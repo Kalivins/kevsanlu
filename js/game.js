@@ -3,6 +3,7 @@ var essai = 10;
 var propo = document.querySelector('.propo');
 var but = randomNumber(0, 100);
 var indice = document.querySelector('.indice');
+var start = document.querySelector('.start');
 var game = document.querySelector('.game');
 var recap = document.querySelector('.recap');
 var gameover = document.querySelector('.gameover');
@@ -39,7 +40,22 @@ function validate() {
         gameover.style.display = "block";
     }
 }
-
+function switchDiv(from, to) {
+    from.classList.remove("zoomIn");
+    removeFadeOut(from, 500);
+    to.classList.add("fadeIn");
+    to.style.display = "block";
+}
 function rejouer() {
     window.location.reload();
 }
+function removeFadeOut( el, speed ) {
+    var seconds = speed/1000;
+    el.style.transition = "opacity "+seconds+"s ease";
+
+    el.style.opacity = 0;
+    setTimeout(function() {
+        el.parentNode.removeChild(el);
+    }, speed);
+}
+
