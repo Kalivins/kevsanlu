@@ -2,21 +2,42 @@
 <html lang="fr">
 
 <head>
+   <!--##################METADONNEES###############################--> 
     <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Jeu du Juste nombre"/>
+    <meta name="keywords" content="jeu, Juste nombre, chiffre, cancoicode, au secours"/>
+    <meta name="author" content="Kevsanlu"/>
+    
+    <meta property="og:url" content="https://www.facebook.com/lucie.gr.3914" />
+    <meta property="og:type" content="jeu du Juste Nombre" />
+    <meta property="og:title" content="Contacts" />
+    <meta property="og:description" content="Faites des parties du jeu intéractif le Juste Nombre" />
+    <meta property="og:image" content=""/>
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Le juste Nombre"/>
+    <meta name="twitter:description" content="Venez jouer au jeu du Juste Nombre et défier JS"/>
+    <meta name="twitter:site" content="@kevsanlu"/>
+    <meta name="twitter:creator" content="@kevsandlu" />
+    <meta name="twitter:image" content="url de l'image"/>
+   
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
+    
     <title>Le Juste Nombre</title>
 </head>
 
 <body>
-   <div class="container accueil animated zoomIn">
-     <div class="row">
-      <div data-shadow-color="0,0,0" class="start col-lg-offset-3 col-lg-6">
+   <div class="container accueil animated zoomIn col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-6">
+     <div class="row1">
+      <div data-shadow-color="0,0,0" class="start ">
        <h1 class="text-center titre">Le Juste Nombre</h1>
-                <p class="text-center">Bienvenue sur le juste nombre !<br> Le but du jeu est très simple, je vous défie de deviner le nombre que j'ai choisi !
+                <p class="text-center">Bienvenue sur le Juste Nombre !<br> Le but du jeu est très simple, Je vous défie de deviner le nombre width: auto; que j'ai choisi afin de boire le plus de cafés possibles!
                     <br>Il s'agit d'un chiffre entre 0 et 100,
-                    je vous laisserai des indices pour vous aiguiller... Tentez votre chance en 10 essais.<br><span> Bonne chance !</span><br><cite class="signed ">Signé JS</cite><br>
+                    Je vous laisserai des indices pour vous aiguiller... Tentez votre chance en 10 essais.<br><span> Bonne chance !</span><br><cite class="signed ">Signé JS</cite><br>
                     <button onclick="switchDiv(start, game)" class="go">JOUER</button></p>
         </div>
        </div>
@@ -453,9 +474,11 @@
         </div>
     </div>
     <div class="container recap">
+      <div class="row yes">
        <audio class="win" src="audio/win.mp3"></audio>
-       <p class="gagne animated tada">VOUS AVEZ GAGNE !!!!!</p>
-        <button onclick="rejouer()" type="button" class="winbutton col-lg-offset-5">REJOUER</button>
+       <p class="gagne">VOUS AVEZ GAGNE !!!!!</p>
+        <button onclick="rejouer()" type="button" class="winbutton">REJOUER</button>
+      </div>  
     </div>
     <div class="container gameover">
        <audio class="audioover" src="audio/gameover.mp3"></audio>
