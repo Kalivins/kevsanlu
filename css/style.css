@@ -37,12 +37,18 @@
     }
     .nbEssai .indice
     {
-        font-size: 5vh !important;
+        font-size: 2px !important;
     }
     svg {
         margin-left: 0;
         height: 55px;
         width: 55px;
+    }
+    .perdu {
+        font-size: 50px !important;
+    }
+    .gagne {
+        font-size: 50px !important;
     }
 }
 /*FIN MEDIA QUERIES*/
@@ -145,7 +151,6 @@ span {
     border-radius: 25% 25% 25% 25%;
     text-align: center;
     font-size: 30px;
-    margin-left: -60px;
 }
 
 .bouton {

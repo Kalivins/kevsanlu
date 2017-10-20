@@ -12,21 +12,22 @@
     
     <meta property="og:url" content="https://www.facebook.com/lucie.gr.3914" />
     <meta property="og:type" content="jeu du Juste Nombre" />
-    <meta property="og:title" content="Contacts" />
+    <meta property="og:title" content="Le Juste Nombre" />
     <meta property="og:description" content="Faites des parties du jeu interactif le Juste Nombre" />
     <meta property="og:description" content="Faites des parties du jeu interactif le Juste Nombre" />
-    <meta property="og:image" content=""/>
+    <meta property="og:image" content="image/logo.svg"/>
     
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Le juste Nombre"/>
     <meta name="twitter:description" content="Venez jouer au jeu du Juste Nombre et défier JS"/>
     <meta name="twitter:site" content="@kevsanlu"/>
     <meta name="twitter:creator" content="@kevsandlu" />
-    <meta name="twitter:image" content="url de l'image"/>
+    <meta name="twitter:image" content="image/logo.svg"/>
    
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="icon" href="image/logo.ico">
     
     <title>Le Juste Nombre</title>
 </head>
@@ -46,12 +47,12 @@
    </div>
     </div>
     <div class="container game animated">
-        <div class="row ">
-           <div class="col-lg-offset-4 col-lg-6 test">
+        <div class="row">
+           <div class="col-xs-12 col-sm-12 col-md-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-4 col-lg-6 col-lg-offset-4 test text-center">
             <input type="text" class="propo" placeholder="Entrez votre nombre" onclick="javascript:this.value = '';" />
             <div class="indice"></div>
             </div>
-            <div class="col-lg-2 bull">
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center bull">
             <button onclick="validate()" type="button" class="bouton">JOUER</button>
             </div>
          </div>
@@ -476,18 +477,22 @@
             </div>
         </div>
     </div>
-    <div class="container recap">
+    <div class="container recap text-center">
       <div class="row yes">
+      <div class="col-xs-12 col-sm-12 col-md-10 col-mg-offset-2 col-lg-10 col-lg-offset-2 text-center">
        <audio class="win" src="audio/win.mp3"></audio>
        <p class="gagne tada">VOUS AVEZ GAGNE !!!!!</p>
         <button onclick="rejouer()" type="button" class="winbutton">REJOUER</button>
+          </div>
       </div>  
     </div>
     <div class="container gameover">
        <audio class="audioover" src="audio/gameover.mp3"></audio>
        <div class="row lost">
+       <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-3 col-lg-8 col-lg-offset-3 text-center">
         <p class="perdu">GAME OVER !!!</p>
         <button onclick="rejouer()" type="button" class="rejouer col-">REJOUER</button>
+           </div>
     </div>
     </div>
     
