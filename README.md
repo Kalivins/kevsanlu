@@ -3,5 +3,5 @@
 Projet réalisé par l'équipe "kevsanlu" composé de:
 
 - Kevin (#kevillard)
-- Sandrine (#3sandrineMathieu68)
+- Sandrine (#sandrineMathieu68)
 - Lucie (#LGrGr)
