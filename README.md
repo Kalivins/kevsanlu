@@ -2,6 +2,6 @@
 
 Projet réalisé par l'équipe "kevsanlu" composé de:
 
-- Kevin (#kevillard)
+- Kevin (#kalivins)
 - Sandrine (#sandrineMathieu68)
 - Lucie (#LGrGr)
